@@ -19,3 +19,13 @@ Browser URL: http://127.0.0.1:3000/
 `docker run -p 8080:80 image_id`
 
 Browser URL: http://127.0.0.1:8080/
+
+## Travis 
+
+Connect Travis to Github account
+
+Enable repo in Dashboard
+
+Create file in root project directory `.travis.yml`
+
+

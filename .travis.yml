@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t kudzik/reactDockerContinuousIntegration -f Dockerfile.dev .
+
+script:
+  - docker run kudzik/reactDockerContinuousIntegration npm run test -- --coverage
