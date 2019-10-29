@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t kudzik/reactDockerContinuousIntegration -f Dockerfile.dev .
+  - docker build -t imageId -f Dockerfile.dev .
 
 script:
-  - docker run kudzik/reactDockerContinuousIntegration npm run test -- --coverage
+  - docker run imageId npm run test -- --coverage
