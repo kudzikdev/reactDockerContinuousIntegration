@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t imageId -f Dockerfile.dev .
+  - docker build -t imageId:latest -f Dockerfile.dev .
 
 script:
-  - docker run imageId npm run test -- --coverage
+  - docker run imageId:latest npm run test -- --coverage
