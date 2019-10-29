@@ -4,6 +4,8 @@
 
 `docker-compose up --build`
 
+Browser URL: http://127.0.0.1:3000/
+
 ## TESTS
 
 `docker exec -it frontend_tests_container_id sh`
@@ -15,3 +17,5 @@
 `docker build .`
 
 `docker run -p 8080:80 image_id`
+
+Browser URL: http://127.0.0.1:8080/
