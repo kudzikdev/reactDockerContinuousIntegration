@@ -28,4 +28,12 @@ Enable repo in Dashboard
 
 Create file in root project directory `.travis.yml`
 
+Commit changes to github
+
+Select repo travis webpage and run.
+
+## AWS
+
+Create Elastic Beanstalk
+
 
